@@ -28,6 +28,7 @@ def clear():
 
 def main():
 	logo()
+	color(2)
 	input("Press any key to continue....")
 	while True:
 		clear()
