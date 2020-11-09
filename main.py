@@ -21,3 +21,6 @@ logo = """\033[33m
 
 def color(c):
 	os.system('tput setaf {}'.format(c))
+
+def clear():
+    os.system('clear')
