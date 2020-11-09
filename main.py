@@ -18,3 +18,6 @@ logo = """\033[33m
 \033[34m[✔] Niket Ranjan          (https://www.linkedin.com/in/niket24/)
 \033[34m[✔] Abhishek Anand        (https://www.linkedin.com/in/abhishek-anand-88576a1a4/)
 \033[97m """
+
+def color(c):
+	os.system('tput setaf {}'.format(c))
