@@ -137,7 +137,7 @@ gpgcheck=0" >> /etc/yum.repos.d/ry.repo ''')
 				input('Press Enter to continue')
 			elif ch6 == 2:
 				image_keyword = input("Enter keyword to search for image")
-				os.system('docker search {}'.format(image_keyword) | less)
+				os.system('docker search {}'.format(image_keyword))
 				input('Press Enter to continue')
 			elif ch6 == 3:
 				image_name = input(

@@ -7,31 +7,12 @@ def hadoop_logo_first():
 		os.system("clear")
 		os.system("figlet -f standard -c Hadoop | lolcat ")
 
-	elif system() == 'Windows':
-		os.system("cls")
-		print(hadoop_logo_widnows)
-
 
 def hadoop_logo():
 	if system() == 'Linux':
 		os.system("clear")
 		os.system("figlet -f standard -c Hadoop | lolcat ")
 
-	elif system() == 'Windows':
-		os.system("cls")
-		print(hadoop_logo_widnows)
-
-
-hadoop_logo_windows = """\033[33m
-
-  _   _           _                   
- | | | | __ _  __| | ___   ___  _ __  
- | |_| |/ _` |/ _` |/ _ \ / _ \| '_ \ 
- |  _  | (_| | (_| | (_) | (_) | |_) |
- |_| |_|\__,_|\__,_|\___/ \___/| .__/ 
-							   |_|    
-							   
-	\033[97m """
 c = "Choice == "
 
 
